@@ -1,0 +1,108 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+    }
+    
+    /* speech: Style for character speech */
+    .speech {
+        font-family: "Georgia", serif;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.893);
+        margin-bottom: 10px;
+    }
+    
+    /* stage-direction: Style for stage directions */
+    .stage-direction {
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        color: black;
+        background-color: #cbd4ca;
+        padding: 5px;
+        font-style: italic;
+    }
+    
+    /* Hover effect for stage-direction */
+    .stage-direction:hover {
+        background-color: #e8e5d7;
+        color: darkred;
+    }
+    
+    /* Hover effect for character names */
+    .name:hover {
+        color: #fff;
+        text-shadow: 2px 2px 12px rgba(255, 0, 0, 0.6), 0 0 25px #ff6666, 0 0 5px #ff9999;
+        border: 2px solid #ffcc00;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    /* Character Styles */
+    .First.Witch {
+        color: rgb(234, 15, 15);
+    }
+    
+    .Second.Witch {
+        color: rgb(68, 146, 235);
+    }
+    
+    .Third.Witch {
+        color: rgb(18, 18, 245);
+    }
+    
+    .ALL {
+        color: rgb(226, 12, 226);
+    }
+    /* Table Styles */
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Georgia", serif;
+}
+
+/* Table header style */
+.cast-table th {
+    background-color: #4c81af;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #1a1515;
+}
+
+/* Table cell style */
+.cast-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #190909;
+}
+
+/* Row striping */
+.cast-table tr:nth-child(even) {
+    background-color: #c6c0c9;
+}
+
+/* Table hover effect */
+.cast-table tr:hover {
+    background-color: #5bc9b1;
+}
+
+/* Table cell border */
+.cast-table td, .cast-table th {
+    border: 1px solid #e6a777;
+}
+
+/* Styling for padding and margins */
+.cast-table {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
